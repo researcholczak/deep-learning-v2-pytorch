@@ -43,7 +43,7 @@ def test_discriminator(Discriminator):
 def test_generator(Generator):
     batch_size = 50
     z_size = 25
-    conv_dim=10
+    conv_dim = 10
     G = Generator(z_size, conv_dim)
 
     # create random input
